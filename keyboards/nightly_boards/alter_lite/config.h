@@ -1,5 +1,5 @@
 	/*
-Copyright 2020 Neil Brian Ramirez
+Copyright 2020 DeskDaily
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 2 of the License, or
@@ -20,7 +20,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define VENDOR_ID 0xD812
 #define PRODUCT_ID 0x0012
 #define DEVICE_VER 0x0001
-#define MANUFACTURER Neil Brian Ramirez
+#define MANUFACTURER DeskDaily
 #define PRODUCT Alter Lite
 #define DESCRIPTION An Alice layout keyboard
 
