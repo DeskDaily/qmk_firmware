@@ -1,5 +1,4 @@
-/*
-Copyright 2022 DeskDaily
+/* Copyright 2022 DeskDaily
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -20,13 +19,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "config_common.h"
 
 /* key matrix size */
-#define MATRIX_ROWS 5
-#define MATRIX_COLS 17
+#define MATRIX_ROWS 10
+#define MATRIX_COLS 8
 
 /* Encoders */
 
-#define ENCODERS_PAD_A { A2, A0, C0 }
-#define ENCODERS_PAD_B { A1, C3, C1 }
+#define ENCODERS_PAD_A { D2, D2, D3 }
+#define ENCODERS_PAD_B { D3, B7, B7 }
 #define ENCODER_RESOLUTION 4
 #define TAP_CODE_DELAY 10
 /*
@@ -39,14 +38,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
  */
-#define MATRIX_ROW_PINS { C6, B15, B14, B12, B5 }
-#define MATRIX_COL_PINS { C2, A4, B0, C5, C4, A7, A6, A5, B13, C9, C8, C7, C11, C12, B4, B3, D2 }
+#define MATRIX_ROW_PINS { D7, D6, B4, F6, E6, F0, B0, B1, B3, B2 }
+#define MATRIX_COL_PINS { D5, F5, F4, F1, C7, C6, B6, B5 }
 
-#define RGB_DI_PIN A3
-#ifdef RGB_DI_PIN
-#define RGBLED_NUM 65
-#define RGBLIGHT_ANIMATIONS
-#endif
 
 /* COL2ROW, ROW2COL*/
 #define DIODE_DIRECTION COL2ROW

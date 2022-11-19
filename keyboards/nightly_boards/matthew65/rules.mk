@@ -1,15 +1,14 @@
 # MCU name
-MCU = STM32F303
-BOARD = QMK_PROTON_C
+MCU = atmega32u4
 
 # Bootloader selection
-BOOTLOADER = stm32-dfu
+BOOTLOADER = atmel-dfu
 
 # Build Options
 #   change yes to no to disable
 #
 BOOTMAGIC_ENABLE = yes        # Virtual DIP switch configuration
-MOUSEKEY_ENABLE = yes         # Mouse keys
+MOUSEKEY_ENABLE = no          # Mouse keys
 EXTRAKEY_ENABLE = yes         # Audio control and System control
 CONSOLE_ENABLE = no           # Console for debug
 COMMAND_ENABLE = no           # Commands for debug and configuration
