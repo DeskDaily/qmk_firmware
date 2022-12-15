@@ -36,6 +36,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROW_PINS { B0, B1, E6, B5, B4, D7 }
 #define MATRIX_COL_PINS { F4, F5, F6, F7, C7, C6, B6, D5, D3, D2, B7, B3, B2, D6, D4 }
 
+#ifdef OLED_DRIVER_ENABLE
+  #define OLED_IC OLED_IC_SH1106
+#endif
+
 /* Encoders */
 
 #define ENCODERS 1
