@@ -23,9 +23,30 @@
         "command": false,
         "nkro": false,
         "backlight": false,
-        "rgblight": false,
+        "rgblight": true,
         "audio": false,
         "key_lock": false
+    },
+	    "rgblight": {
+        "pin": "C7",
+        "led_count": 6,
+        "hue_steps": 8,
+        "saturation_steps": 8,
+        "brightness_steps": 8,
+        "max_brightness": 255,
+        "sleep": true,
+        "animations": {
+            "alternating": true,
+            "breathing": true,
+            "christmas": true,
+            "knight": true,
+            "rainbow_mood": true,
+            "rainbow_swirl": true,
+            "rgb_test": true,
+            "snake": true,
+            "static_gradient": true,
+            "twinkle": true
+        }
     },
     "layouts": {
         "LAYOUT": {
