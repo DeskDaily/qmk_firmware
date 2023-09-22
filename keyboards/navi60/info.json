@@ -22,10 +22,7 @@
         "console": false,
         "command": false,
         "nkro": true,
-        "backlight": false,
-        "rgblight": false,
-        "audio": false,
-        "key_lock": false
+		"rgblight": true
     },
     "layouts": {
         "LAYOUT": {
@@ -93,8 +90,10 @@
                 {"label": "Control", "matrix": [4, 0], "x": 0, "y": 4, "w": 1.25},
                 {"label": "GUI", "matrix": [4, 2], "x": 1.25, "y": 4, "w": 1.25},
                 {"label": "Alt", "matrix": [4, 3], "x": 2.5, "y": 4, "w": 1.25},
-                {"label": "Space", "matrix": [4, 7], "x": 3.75, "y": 4, "w": 6.25},
-                {"label": "Alt", "matrix": [4, 10], "x": 10, "y": 4, "w": 1.25},
+                {"label": "Space", "matrix": [4, 4], "x": 3.75, "y": 4, "w": 1.5},
+                {"label": "Space", "matrix": [4, 7], "x": 5.25, "y": 4, "w": 3},
+                {"label": "Space", "matrix": [4, 9], "x": 8.25, "y": 4, "w": 1.5},
+                {"label": "Alt", "matrix": [4, 10], "x": 9.75, "y": 4, "w": 1.5},
                 {"label": "App", "matrix": [4, 11], "x": 11.25, "y": 4, "w": 1.25},
                 {"label": "GUI", "matrix": [4, 12], "x": 12.5, "y": 4, "w": 1.25},
                 {"label": "Control", "matrix": [4, 13], "x": 13.75, "y": 4, "w": 1.25}
