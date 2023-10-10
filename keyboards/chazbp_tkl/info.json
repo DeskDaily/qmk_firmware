@@ -22,14 +22,14 @@
         "console": false,
         "command": false,
         "nkro": true,
-		"rgblight": true,
+		"rgblight": true
     },
     "ws2812": {
-        "pin": "GP14"
+        "pin": "GP14",
 		"driver": "vendor"
     },
     "rgblight": {
-        "led_count": 88,
+        "led_count": 87,
         "saturation_steps": 8,
         "brightness_steps": 8,
 		"max_brightness": 120,
@@ -98,7 +98,7 @@
                 {"label": "P", "matrix": [2, 10], "x": 10.5, "y": 2.5},
                 {"label": "[", "matrix": [2, 11], "x": 11.5, "y": 2.5},
                 {"label": "]", "matrix": [2, 12], "x": 12.5, "y": 2.5},
-                {"label": "Enter", "matrix": [2, 13], "x": 13.75, "y": 2.5, "w": 1.25, "h": 2},
+                {"label": "|", "matrix": [2, 13], "x": 13.5, "y": 2.5, "w": 1.5},
                 {"label": "Delete", "matrix": [2, 14], "x": 15.25, "y": 2.5},
                 {"label": "End", "matrix": [2, 15], "x": 16.25, "y": 2.5},
                 {"label": "Page Down", "matrix": [2, 16], "x": 17.25, "y": 2.5},
@@ -115,10 +115,9 @@
                 {"label": "L", "matrix": [3, 9], "x": 9.75, "y": 3.5},
                 {"label": ";", "matrix": [3, 10], "x": 10.75, "y": 3.5},
                 {"label": "'", "matrix": [3, 11], "x": 11.75, "y": 3.5},
-                {"label": "#", "matrix": [3, 12], "x": 12.75, "y": 3.5},
+                {"label": "Enter", "matrix": [3, 12], "x": 12.75, "y": 3.5, "w": 2.25},
 				
-                {"label": "Shift", "matrix": [4, 0], "x": 0, "y": 4.5, "w": 1.25},
-                {"label": "|", "matrix": [4, 1], "x": 1.25, "y": 4.5},
+                {"label": "Shift", "matrix": [4, 0], "x": 0, "y": 4.5, "w": 2.25},
                 {"label": "Z", "matrix": [4, 2], "x": 2.25, "y": 4.5},
                 {"label": "X", "matrix": [4, 3], "x": 3.25, "y": 4.5},
                 {"label": "C", "matrix": [4, 4], "x": 4.25, "y": 4.5},
